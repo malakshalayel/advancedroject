@@ -8,7 +8,7 @@ class AppRouter {
     switch (settings.name) {
       case Routes.onBoarding:
         return MaterialPageRoute(builder: (_) => const OnboardingScreen());
-      case '/details':
+      case Routes.loginScreen:
         return MaterialPageRoute(builder: (_) => const LoginScreen());
       default:
         return MaterialPageRoute(builder: (_) => const Scaffold());
