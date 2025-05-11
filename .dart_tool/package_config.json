@@ -62,6 +62,30 @@
       "languageVersion": "3.6"
     },
     {
+      "name": "build_daemon",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/build_daemon-4.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "build_resolvers",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/build_resolvers-2.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "build_runner",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/build_runner-2.4.15",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "build_runner_core",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/build_runner_core-8.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
       "name": "built_collection",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/built_collection-5.1.1",
       "packageUri": "lib/",
@@ -237,13 +261,19 @@
     },
     {
       "name": "freezed",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/freezed-3.0.6",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/freezed-2.5.8",
       "packageUri": "lib/",
-      "languageVersion": "3.6"
+      "languageVersion": "3.0"
     },
     {
       "name": "freezed_annotation",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/freezed_annotation-3.0.0",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/freezed_annotation-2.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "frontend_server_client",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/frontend_server_client-4.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -260,6 +290,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "graphs",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/graphs-2.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "html",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/html-0.15.6",
       "packageUri": "lib/",
@@ -270,6 +306,12 @@
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.3.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "http_multi_server",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/http_multi_server-3.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "http_parser",
@@ -288,6 +330,18 @@
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.19.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "io",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/io-1.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.7.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
     },
     {
       "name": "json_annotation",
@@ -350,6 +404,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "mime",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/mime-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "nested",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/nested-1.0.0",
       "packageUri": "lib/",
@@ -408,6 +468,12 @@
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "pool",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/pool-1.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "posix",
@@ -500,6 +566,18 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "shelf",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/shelf-1.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "shelf_web_socket",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/shelf_web_socket-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -536,6 +614,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "stream_transform",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/stream_transform-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "string_scanner",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.4.1",
       "packageUri": "lib/",
@@ -552,6 +636,12 @@
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.4",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "timing",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/timing-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "typed_data",
@@ -608,6 +698,18 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "web_socket",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "web_socket_channel",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket_channel-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "xdg_directories",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/xdg_directories-1.1.0",
       "packageUri": "lib/",
@@ -632,7 +734,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-05-02T11:29:49.061336Z",
+  "generated": "2025-05-09T15:29:56.403976Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///C:/src/flutter",

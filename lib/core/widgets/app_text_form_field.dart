@@ -12,17 +12,32 @@ class AppTextFormField extends StatelessWidget {
     this.enabledborder,
     this.contentpadding,
     this.obscuretext = false,
-  });
+    this.controller,
+    this.validate,
+    this.backgroundColor,
+    FocusNode? focusNode, // Initialize in the constructor body if null
+    bool? showPasswordValidation,
+  }) : focusNode = focusNode ?? FocusNode(),
+       showPasswordValidation = showPasswordValidation ?? false;
   final String hintText;
   final Widget? suffixIcon;
   final bool obscuretext;
   final InputBorder? focusedborder;
   final InputBorder? enabledborder;
   final EdgeInsetsGeometry? contentpadding;
+  final TextEditingController? controller;
+  final Function(String)? validate;
+  final Color? backgroundColor;
+  final FocusNode? focusNode;
+  bool? showPasswordValidation;
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      controller: controller,
+      validator: (value) {
+        return validate!(value!);
+      },
       decoration: InputDecoration(
         isDense: true,
         contentPadding:
@@ -43,12 +58,23 @@ class AppTextFormField extends StatelessWidget {
                 width: 1.3.w,
               ),
             ),
+        errorBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: Colors.red, width: 1.3.w),
+          borderRadius: BorderRadius.circular(16.r),
+        ),
+        focusedErrorBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: Colors.red, width: 1.3.w),
+          borderRadius: BorderRadius.circular(16.r),
+        ),
+        filled: true,
+        fillColor: backgroundColor ?? Colors.white,
 
         hintText: hintText,
         hintStyle: TextStylesApp.hintTextFormField,
         suffixIcon: suffixIcon,
       ),
       obscureText: obscuretext,
+      focusNode: focusNode,
     );
   }
 }
