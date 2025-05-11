@@ -1,9 +1,14 @@
 import 'package:advanced_project/core/theming/textstyle.dart';
 import 'package:advanced_project/core/widgets/app_text_button.dart';
 import 'package:advanced_project/core/widgets/app_text_form_field.dart';
+import 'package:advanced_project/features/login/data/models/login_request.dart';
+import 'package:advanced_project/features/login/logic/cubit/login_cubit.dart';
 import 'package:advanced_project/features/login/ui/widgets/already_have_account_text.dart';
+import 'package:advanced_project/features/login/ui/widgets/email_and_password.dart';
+import 'package:advanced_project/features/login/ui/widgets/login_bloc_listener.dart';
 import 'package:advanced_project/features/login/ui/widgets/terms_and_conditiones_text.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -14,9 +19,6 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-  bool isobscureText = true;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,43 +39,31 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
                 SizedBox(height: 30.h),
-                Form(
-                  key: _formKey,
-                  child: Column(
-                    children: [
-                      AppTextFormField(hintText: "Email"),
-                      SizedBox(height: 10.h),
-                      AppTextFormField(
-                        hintText: "password",
-                        obscuretext: isobscureText,
-                        suffixIcon: GestureDetector(
-                          onTap:
-                              () => setState(() {
-                                isobscureText = !isobscureText;
-                              }),
-                          child: Icon(
-                            isobscureText
-                                ? (Icons.visibility)
-                                : (Icons.visibility_off),
-                          ),
-                        ),
+                EmailAndPassword(),
+                SizedBox(height: 20.h),
+                Column(
+                  children: [
+                    SizedBox(height: 18.h),
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: Text(
+                        "Forget Password?",
+                        style: TextStylesApp.InterRegular12primaryColor,
                       ),
-                      SizedBox(height: 18.h),
-                      Align(
-                        alignment: Alignment.centerRight,
-                        child: Text(
-                          "Forget Password?",
-                          style: TextStylesApp.InterRegular12primaryColor,
-                        ),
-                      ),
-                      SizedBox(height: 25.h),
-                      AppTextButton(text: "Login"),
-                      SizedBox(height: 20.h),
-                      TermsAndConditionesText(),
-                      SizedBox(height: 40.h),
-                      AlreadyHaveAccountText(),
-                    ],
-                  ),
+                    ),
+                    SizedBox(height: 25.h),
+                    AppTextButton(
+                      text: "Login",
+                      onPressed: () {
+                        validateThenDoLogin(context);
+                      },
+                    ),
+                    SizedBox(height: 20.h),
+                    TermsAndConditionesText(),
+                    SizedBox(height: 40.h),
+                    AlreadyHaveAccountText(),
+                    LoginBlocListener(),
+                  ],
                 ),
               ],
             ),
@@ -81,5 +71,11 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
       ),
     );
+  }
+}
+
+void validateThenDoLogin(BuildContext context) {
+  if (context.read<LoginCubit>().formKey.currentState!.validate()) {
+    context.read<LoginCubit>().emitLoginState();
   }
 }

@@ -66,4 +66,19 @@ class TextStylesApp {
     color: Colors.black,
     fontFamily: 'Inter',
   );
+  static TextStyle font15DarkBlueMedium = TextStyle(
+    fontSize: 15.sp,
+    fontWeight: FontWeight.w500,
+    color: Color(0xFF247CFF),
+  );
+  static TextStyle font14BlueSemiBold = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w600,
+    color: Color(0xFF247CFF),
+  );
+  static TextStyle font13DarkBlueRegular = TextStyle(
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w400,
+    color: Color(0xFF247CFF),
+  );
 }

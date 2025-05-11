@@ -6,9 +6,11 @@
                 {
                     "source": "C:\\Users\\Esam\\.gradle\\caches\\8.10.2\\transforms\\3a4dcd3e8c92efa77cfa193b658940d9\\transformed\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
                     },
                     "to": {
                         "startLines": "13,14,15,16,17,18,19,20",
@@ -21,12 +23,12 @@
                 {
                     "source": "C:\\flutter projects\\advanced_project\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
-                        "startLines": "3,-1",
-                        "startColumns": "4,-1",
-                        "startOffsets": "172,-1",
-                        "endLines": "11,-1",
-                        "endColumns": "12,-1",
-                        "endOffsets": "747,-1"
+                        "startLines": "3,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,1094",
+                        "endLines": "11,20",
+                        "endColumns": "12,12",
+                        "endOffsets": "747,1258"
                     },
                     "to": {
                         "startLines": "2,10",
@@ -35,47 +37,6 @@
                         "endLines": "9,12",
                         "endColumns": "12,12",
                         "endOffsets": "502,671"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Esam\\.gradle\\daemon\\8.10.2\\com.example.advanced_project.app-mergeDebugResources-39:\\values-night-v8\\values-night-v8.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Esam\\.gradle\\caches\\8.10.2\\transforms\\3a4dcd3e8c92efa77cfa193b658940d9\\transformed\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "405,475,559,643,739,841,943,1037",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "470,554,638,734,836,938,1032,1121"
-                    }
-                },
-                {
-                    "source": "C:\\flutter projects\\advanced_project\\android\\app\\src\\main\\res\\values-night\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "175,831",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "482,997"
-                    },
-                    "to": {
-                        "startLines": "2,6",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,236",
-                        "endLines": "5,8",
-                        "endColumns": "12,12",
-                        "endOffsets": "231,400"
                     }
                 }
             ]
