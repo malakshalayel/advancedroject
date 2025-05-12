@@ -16,7 +16,7 @@ class AppTextButton extends StatelessWidget {
       child: Text(text, style: TextStylesApp.InterSemibold16),
       style: TextButton.styleFrom(
         backgroundColor: ColorManager.primary,
-        padding: EdgeInsets.symmetric(horizontal: 140, vertical: 12),
+        padding: EdgeInsets.symmetric(horizontal: 133, vertical: 15),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(
             20,
