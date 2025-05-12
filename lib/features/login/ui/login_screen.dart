@@ -3,7 +3,7 @@ import 'package:advanced_project/core/widgets/app_text_button.dart';
 import 'package:advanced_project/core/widgets/app_text_form_field.dart';
 import 'package:advanced_project/features/login/data/models/login_request.dart';
 import 'package:advanced_project/features/login/logic/cubit/login_cubit.dart';
-import 'package:advanced_project/features/login/ui/widgets/already_have_account_text.dart';
+import 'package:advanced_project/features/login/ui/widgets/dont_have_account_text.dart';
 import 'package:advanced_project/features/login/ui/widgets/email_and_password.dart';
 import 'package:advanced_project/features/login/ui/widgets/login_bloc_listener.dart';
 import 'package:advanced_project/features/login/ui/widgets/terms_and_conditiones_text.dart';
@@ -61,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(height: 20.h),
                     TermsAndConditionesText(),
                     SizedBox(height: 40.h),
-                    AlreadyHaveAccountText(),
+                    DontHaveAccountText(),
                     LoginBlocListener(),
                   ],
                 ),
