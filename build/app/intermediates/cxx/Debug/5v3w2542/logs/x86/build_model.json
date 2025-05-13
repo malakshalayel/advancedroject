@@ -10,7 +10,7 @@
   },
   "cxxBuildFolder": "C:\\flutter projects\\advanced_project\\android\\app\\.cxx\\Debug\\5v3w2542\\x86",
   "soFolder": "C:\\flutter projects\\advanced_project\\build\\app\\intermediates\\cxx\\Debug\\5v3w2542\\obj\\x86",
-  "soRepublishFolder": "C:\\flutter projects\\advanced_project\\build\\app\\intermediates\\cmake\\profile\\obj\\x86",
+  "soRepublishFolder": "C:\\flutter projects\\advanced_project\\build\\app\\intermediates\\cmake\\productionProfile\\obj\\x86",
   "abiPlatformVersion": 21,
   "cmake": {
     "effectiveConfiguration": {
@@ -25,7 +25,7 @@
     ],
     "cFlagsList": [],
     "cppFlagsList": [],
-    "variantName": "profile",
+    "variantName": "productionProfile",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "armeabi-v7a",
