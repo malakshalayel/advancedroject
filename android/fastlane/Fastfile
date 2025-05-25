@@ -11,7 +11,8 @@ platform :android do
             app: "1:96068686754:android:543c05341b2598c7b158fb",
             testers: "tester1@company.com, tester2@company.com",
             release_notes: "Lots of amazing new features to test out!",
-            firebase_cli_token: "1//03t24gD97vlKzCgYIARAAGAMSNwF-L9IrUpPF4KaXwqzJlt92Yit-Y7IXxhREufU5Q0Zp4OTaZAkKlMUuK5iTvPeL0j0QranCfDw",
+            #to secure var when use fastlane withe github actiones, else lib flutter_dotenv 
+            firebase_cli_token: ENF["FIREBASE_CLI_TOKEN"], ,
             testers: "malakesam2003@gmail.com",
             android_artifact_type: "APK",
             android_artifact_path: "../build/app/outputs/flutter-apk/app-production-release.apk",
