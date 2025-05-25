@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95202d6e-0d9d-4560-bdfa-dec3dbfe7744" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/debug_android_application.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/flutter_assets.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/kernel_snapshot_program.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/kernel_snapshot_program.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/kernel_snapshot_program.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/kernel_snapshot_program.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/ceade5cea8e52f94dbd4c15a0e1e3be9/outputs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/AssetManifest.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/AssetManifest.bin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/1835j5h1/logs/armeabi-v7a/generate_cxx_metadata_84_timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/1835j5h1/logs/armeabi-v7a/generate_cxx_metadata_84_timing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="95202d6e-0d9d-4560-bdfa-dec3dbfe7744" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2wXbvAZaA5vQnTYrygzSEqzk6DB" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
@@ -82,9 +54,10 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "onboarding",
+    "git-widget-placeholder": "features/fastlane__app__distribytion",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/flutter projects/advanced_project/android",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
