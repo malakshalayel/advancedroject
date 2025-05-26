@@ -3,10 +3,11 @@ default_platform(:android)
 platform :android do
   desc "Submit a new Beta Build to Firebase App Distribution"
   lane :firebase_distribution do
-    # sh "flutter clean"
-    # sh "flutter pub get"
-    # sh "flutter build apk --release --flavor production --target lib/main_production.dart --no-tree-shake-icons"
-
+   Dir.chdir("../") do
+    sh "flutter clean"
+    sh "flutter pub get"
+    sh "flutter build apk --release --flavor production --target lib/main_production.dart --no-tree-shake-icons"
+  end
     firebase_app_distribution(
       app: "1:96068686754:android:543c05341b2598c7b158fb",
       testers: "malakesam2003@gmail.com",
