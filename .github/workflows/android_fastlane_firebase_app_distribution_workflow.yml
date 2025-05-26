@@ -42,3 +42,13 @@ jobs:
           bundle exec fastlane firebase_distribution
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_CLI_TOKEN }}
+<<<<<<< HEAD
+=======
+          # Add other required secrets here
+        run: |
+          bundle exec fastlane firebase_distribution
+
+ 
+
+
+>>>>>>> 190864d82b7f809c324dd24d1bceac1bb351dde6
