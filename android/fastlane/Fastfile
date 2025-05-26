@@ -4,6 +4,7 @@ platform :android do
   desc "Submit a new Beta Build to Firebase App Distribution"
   lane :firebase_distribution do
     sh "flutter clean"
+    sh "flutter pub get"
     sh "flutter build apk --release --flavor production --target lib/main_production.dart --no-tree-shake-icons"
 
     firebase_app_distribution(
