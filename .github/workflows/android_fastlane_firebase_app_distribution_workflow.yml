@@ -40,8 +40,9 @@ jobs:
         run: ls -al android/app/src/main/
 
       - name: Run Fastlane distribution
-        working-directory: android
+        
         run: |
+          cd android
           bundle exec fastlane firebase_distribution
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_CLI_TOKEN }}

@@ -3,10 +3,8 @@ default_platform(:android)
 platform :android do
   desc "Submit a new Beta Build to Firebase App Distribution"
   lane :firebase_distribution do
-    Dir.chdir("../") do
-      sh "flutter clean"
-      sh "flutter build apk --release --flavor production --target lib/main_production.dart --no-tree-shake-icons"
-    end
+    sh "flutter clean"
+    sh "flutter build apk --release --flavor production --target lib/main_production.dart --no-tree-shake-icons"
 
     firebase_app_distribution(
       app: "1:96068686754:android:543c05341b2598c7b158fb",
@@ -14,7 +12,7 @@ platform :android do
       release_notes: "First Fastlane App Distribution",
       firebase_cli_token: ENV["FIREBASE_CLI_TOKEN"],
       android_artifact_type: "APK",
-      android_artifact_path: "../build/app/outputs/flutter-apk/app-production-release.apk"
+      android_artifact_path: "build/app/outputs/flutter-apk/app-production-release.apk"
     )
   end
 end
