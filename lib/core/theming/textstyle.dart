@@ -81,4 +81,32 @@ class TextStylesApp {
     fontWeight: FontWeight.w400,
     color: Color(0xFF247CFF),
   );
+
+  static TextStyle InterBold18 = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeight.w700,
+    color: Colors.black,
+    fontFamily: 'Inter',
+  );
+
+  static TextStyle InterRegular11 = TextStyle(
+    fontSize: 11.sp,
+    fontWeight: FontWeight.w400,
+    color: Colors.black,
+    fontFamily: 'Inter',
+  );
+
+  static TextStyle InterMedium18 = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeight.w500,
+    color: Colors.white,
+    fontFamily: 'Inter',
+  );
+
+  static TextStyle InterSemibold18 = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeight.w600,
+    color: Colors.black,
+    fontFamily: 'Inter',
+  );
 }

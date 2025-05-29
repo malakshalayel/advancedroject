@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95202d6e-0d9d-4560-bdfa-dec3dbfe7744" name="Changes" comment="" />
+    <list default="true" id="95202d6e-0d9d-4560-bdfa-dec3dbfe7744" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/networking/api_error_model.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/networking/api_error_model.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/networking/api_result.freezed.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/networking/api_result.freezed.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/networking/api_services.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/networking/api_services.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/theming/colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/theming/colors.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/theming/textstyle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/theming/textstyle.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/home/ui/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/home/ui/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/login/data/models/login_request.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/login/data/models/login_request.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/login/data/models/login_responce.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/login/data/models/login_responce.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/login/logic/cubit/login_state.freezed.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/login/logic/cubit/login_state.freezed.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/sign_up.dart/data/models/signup_request.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/sign_up.dart/data/models/signup_request.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/sign_up.dart/data/models/signup_request.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/sign_up.dart/data/models/signup_request.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/sign_up.dart/data/models/signup_responce.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/sign_up.dart/data/models/signup_responce.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/sign_up.dart/logic/signup_state.freezed.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/sign_up.dart/logic/signup_state.freezed.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +70,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "features/fastlane__app__distribytion",
+    "git-widget-placeholder": "features/githubActions",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/flutter projects/advanced_project/android",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
