@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:advanced_project/core/networking/api_result.dart';
 import 'package:advanced_project/features/login/data/models/login_request.dart';
+import 'package:advanced_project/features/login/data/models/login_responce.dart';
 import 'package:advanced_project/features/login/logic/cubit/login_state.dart';
 import 'package:advanced_project/features/login/data/repos/login_repo.dart';
 import 'package:bloc/bloc.dart';
@@ -24,9 +25,12 @@ class LoginCubit extends Cubit<LoginState> {
         password: passwordController.text,
       ),
     );
+
     response.when(
       success: (data) async {
         emit(LoginState.success(data: data));
+        final token = data.userData?.token;
+        print("Token: $token");
       },
       failure: (errorHandler) {
         emit(

@@ -7,7 +7,7 @@ class SignupRequest {
   final String password;
   final String name;
   final String phone;
-  final int gender = 0;
+  final int gender;
   @JsonKey(name: "password_confirmation")
   final String passwordConfirmation;
 
@@ -17,6 +17,7 @@ class SignupRequest {
     required this.email,
     required this.password,
     required this.name,
+    this.gender = 0,
   });
   Map<String, dynamic> toJson() => _$SignupRequestToJson(this);
 }
