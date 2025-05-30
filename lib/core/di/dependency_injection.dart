@@ -15,6 +15,8 @@ Future<void> setupGetIt() async {
   getIt.registerLazySingleton<ApiService>(() => ApiService(dio));
 
   // login
+  //registerLazySingleton to create a singleton instance of LoginRepo ones time
+  // and registerFactory to create a new instance of LoginCubit each time it's requested
   getIt.registerLazySingleton<LoginRepo>(() => LoginRepo(getIt()));
   getIt.registerFactory<LoginCubit>(() => LoginCubit(getIt()));
 
