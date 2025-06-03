@@ -13,7 +13,6 @@ class AppTextButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: onPressed,
-      child: Text(text, style: TextStylesApp.InterSemibold16),
       style: TextButton.styleFrom(
         backgroundColor: ColorManager.primary,
         padding: EdgeInsets.symmetric(horizontal: 133, vertical: 15),
@@ -23,6 +22,7 @@ class AppTextButton extends StatelessWidget {
           ), // Adjust the radius as needed
         ),
       ),
+      child: Text(text, style: TextStylesApp.InterSemibold16),
     );
   }
 }

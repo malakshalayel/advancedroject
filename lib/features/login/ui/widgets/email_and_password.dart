@@ -54,9 +54,7 @@ class _EmailAndPasswordState extends State<EmailAndPassword> {
           AppTextFormField(
             hintText: 'Email',
             validate: (value) {
-              if (value == null ||
-                  value.isEmpty ||
-                  !AppRegex.isEmailValid(value)) {
+              if (value.isEmpty || !AppRegex.isEmailValid(value)) {
                 return 'Please enter a valid email';
               }
             },
@@ -78,7 +76,7 @@ class _EmailAndPasswordState extends State<EmailAndPassword> {
               ),
             ),
             validate: (value) {
-              if (value == null || value.isEmpty) {
+              if (value.isEmpty) {
                 return 'Please enter a valid password';
               }
             },

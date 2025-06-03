@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SignupCubit extends Cubit<SignupState> {
   SignupCubit(this._signupRepo) : super(const SignupState.initial());
-  SignupRepo _signupRepo;
+  final SignupRepo _signupRepo;
   TextEditingController phoneController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   TextEditingController emailController = TextEditingController();

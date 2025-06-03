@@ -1,0 +1,6 @@
+bool isLoggedInUser = false;
+
+class SharedPrefKeys {
+  static const String userToken =
+      'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3ZjYXJlLmludGVncmF0aW9uMjUuY29tL2FwaS9hdXRoL2xvZ2luIiwiaWF0IjoxNzQ4ODc4NjkxLCJleHAiOjE3NDg5NjUwOTEsIm5iZiI6MTc0ODg3ODY5MSwianRpIjoieGUzUDU2eEsxRTJNbGlPOCIsInN1YiI6IjM5NTciLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.E3I5dnaU69U64ghv0V9QeKNx4fY1lzRCJpfge4h24WI';
+}

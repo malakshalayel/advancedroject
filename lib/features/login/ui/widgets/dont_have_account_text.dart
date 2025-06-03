@@ -1,6 +1,5 @@
 import 'package:advanced_project/core/routing/routes.dart';
 import 'package:advanced_project/core/theming/textstyle.dart';
-import 'package:advanced_project/features/sign_up.dart/ui/signup_screen.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 

@@ -9,7 +9,7 @@
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-7.4.4",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-7.4.5",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -93,7 +93,25 @@
     },
     {
       "name": "built_value",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/built_value-8.9.5",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/built_value-8.10.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "cached_network_image",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/cached_network_image-3.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "cached_network_image_platform_interface",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/cached_network_image_platform_interface-4.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "cached_network_image_web",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/cached_network_image_web-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -153,9 +171,9 @@
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/dart_style-3.0.1",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/dart_style-3.1.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.7"
     },
     {
       "name": "dio",
@@ -231,9 +249,15 @@
     },
     {
       "name": "flutter_bloc",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_bloc-9.1.0",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_bloc-9.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "flutter_cache_manager",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_cache_manager-3.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_lints",
@@ -261,7 +285,37 @@
     },
     {
       "name": "flutter_secure_storage",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage-4.2.1",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage-8.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_linux",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_linux-1.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_macos",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_macos-3.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_platform_interface",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_platform_interface-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_web",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_web-1.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_windows",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_secure_storage_windows-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -327,7 +381,7 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.3.0",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -363,9 +417,9 @@
     },
     {
       "name": "js",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.7.2",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "2.19"
     },
     {
       "name": "json_annotation",
@@ -440,6 +494,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "octo_image",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/octo_image-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "package_config",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/package_config-2.2.0",
       "packageUri": "lib/",
@@ -454,6 +514,24 @@
     {
       "name": "path_parsing",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/path_parsing-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "path_provider",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider-2.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_android-2.2.17",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "path_provider_foundation",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_foundation-2.4.1",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -513,13 +591,13 @@
     },
     {
       "name": "protobuf",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/protobuf-3.1.0",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/protobuf-4.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.6"
     },
     {
       "name": "provider",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.1.4",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -543,9 +621,15 @@
     },
     {
       "name": "retrofit_generator",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/retrofit_generator-9.1.9",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/retrofit_generator-9.2.0",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/rxdart-0.28.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "shared_preferences",
@@ -602,6 +686,12 @@
       "languageVersion": "3.5"
     },
     {
+      "name": "shimmer",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/shimmer-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -626,6 +716,42 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "sprintf",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sqflite",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite-2.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
+      "name": "sqflite_android",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_android-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
+      "name": "sqflite_common",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common-2.5.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
+      "name": "sqflite_darwin",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_darwin-2.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
+      "name": "sqflite_platform_interface",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_platform_interface-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
       "name": "stack_trace",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.12.1",
       "packageUri": "lib/",
@@ -648,6 +774,12 @@
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.4.1",
       "packageUri": "lib/",
       "languageVersion": "3.1"
+    },
+    {
+      "name": "synchronized",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/synchronized-3.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
     },
     {
       "name": "term_glyph",
@@ -680,6 +812,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "vector_graphics",
       "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics-1.1.18",
       "packageUri": "lib/",
@@ -693,9 +831,9 @@
     },
     {
       "name": "vector_graphics_compiler",
-      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_compiler-1.1.16",
+      "rootUri": "file:///C:/Users/Esam/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_compiler-1.1.17",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.6"
     },
     {
       "name": "vector_math",
@@ -758,7 +896,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-05-29T14:18:36.801579Z",
+  "generated": "2025-06-02T14:07:05.396493Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///C:/src/flutter",
