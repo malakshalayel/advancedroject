@@ -1,6 +1,5 @@
 import 'package:advanced_project/core/theming/textstyle.dart';
 import 'package:advanced_project/core/widgets/app_text_button.dart';
-import 'package:advanced_project/core/widgets/app_text_form_field.dart';
 import 'package:advanced_project/features/login/ui/widgets/terms_and_conditiones_text.dart';
 
 import 'package:advanced_project/features/sign_up.dart/logic/signup_cubit.dart';

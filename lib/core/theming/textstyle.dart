@@ -109,4 +109,10 @@ class TextStylesApp {
     color: Colors.black,
     fontFamily: 'Inter',
   );
+  static TextStyle InterRegular12black = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+    color: Colors.black,
+    fontFamily: 'Inter',
+  );
 }

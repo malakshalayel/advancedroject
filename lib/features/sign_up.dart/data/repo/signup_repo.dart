@@ -5,7 +5,7 @@ import 'package:advanced_project/features/sign_up.dart/data/models/signup_reques
 import 'package:advanced_project/features/sign_up.dart/data/models/signup_responce.dart';
 
 class SignupRepo {
-  ApiService _apiService;
+  final ApiService _apiService;
   SignupRepo(this._apiService);
 
   Future<ApiResult<SignupResponce>> signup(SignupRequest signupRequest) async {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.advanced_project.app-mergeDevelopmentDebugResources-43:/values-sk/values-sk.xml",
+            "outputFile": "com.example.advanced_project.app-mergeDevelopmentDebugResources-44:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Esam\\.gradle\\caches\\8.10.2\\transforms\\3a4dcd3e8c92efa77cfa193b658940d9\\transformed\\appcompat-1.1.0\\res\\values-sk\\values-sk.xml",

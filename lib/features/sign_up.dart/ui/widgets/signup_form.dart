@@ -55,7 +55,7 @@ class _SignupFormState extends State<SignupForm> {
           AppTextFormField(
             hintText: 'Name',
             validate: (value) {
-              if (value == null || value.isEmpty) {
+              if (value.isEmpty) {
                 return 'Please enter Your name';
               }
             },
@@ -65,9 +65,7 @@ class _SignupFormState extends State<SignupForm> {
           AppTextFormField(
             hintText: 'Email',
             validate: (value) {
-              if (value == null ||
-                  value.isEmpty ||
-                  !AppRegex.isEmailValid(value)) {
+              if (value.isEmpty || !AppRegex.isEmailValid(value)) {
                 return 'Please enter a valid email';
               }
             },
@@ -89,7 +87,7 @@ class _SignupFormState extends State<SignupForm> {
               ),
             ),
             validate: (value) {
-              if (value == null || value.isEmpty) {
+              if (value.isEmpty) {
                 return 'Please enter a valid password';
               }
             },
@@ -110,7 +108,7 @@ class _SignupFormState extends State<SignupForm> {
               ),
             ),
             validate: (value) {
-              if (value == null || value.isEmpty) {
+              if (value.isEmpty) {
                 return 'Please enter a valid password';
               }
             },
@@ -119,9 +117,7 @@ class _SignupFormState extends State<SignupForm> {
           AppTextFormField(
             hintText: 'Phone',
             validate: (value) {
-              if (value == null ||
-                  value.isEmpty ||
-                  !AppRegex.isPhoneNumberValid(value)) {
+              if (value.isEmpty || !AppRegex.isPhoneNumberValid(value)) {
                 return 'Please enter a valid phone number';
               }
             },

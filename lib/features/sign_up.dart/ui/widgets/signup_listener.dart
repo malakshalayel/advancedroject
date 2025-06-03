@@ -1,10 +1,5 @@
-import 'package:advanced_project/core/helpers/extenstion.dart';
 import 'package:advanced_project/core/routing/routes.dart';
-import 'package:advanced_project/core/theming/colors.dart';
 import 'package:advanced_project/core/theming/textstyle.dart';
-import 'package:advanced_project/features/login/data/models/login_responce.dart';
-import 'package:advanced_project/features/login/logic/cubit/login_cubit.dart';
-import 'package:advanced_project/features/login/logic/cubit/login_state.dart';
 import 'package:advanced_project/features/sign_up.dart/logic/signup_cubit.dart';
 import 'package:advanced_project/features/sign_up.dart/logic/signup_state.dart';
 import 'package:flutter/material.dart';

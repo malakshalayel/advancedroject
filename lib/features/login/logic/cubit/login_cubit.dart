@@ -1,14 +1,12 @@
-import 'dart:math';
-
+import 'package:advanced_project/core/helpers/constant.dart';
 import 'package:advanced_project/core/helpers/shared_pref_helper.dart';
-import 'package:advanced_project/core/networking/api_result.dart';
+import 'package:advanced_project/core/networking/dio_factory.dart';
+import 'package:advanced_project/core/routing/routes.dart';
 import 'package:advanced_project/features/login/data/models/login_request.dart';
-import 'package:advanced_project/features/login/data/models/login_responce.dart';
 import 'package:advanced_project/features/login/logic/cubit/login_state.dart';
 import 'package:advanced_project/features/login/data/repos/login_repo.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/widgets.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
 
 class LoginCubit extends Cubit<LoginState> {
   final LoginRepo _loginRepo;
@@ -31,6 +29,9 @@ class LoginCubit extends Cubit<LoginState> {
       success: (data) async {
         await saveUserToken(data.userData?.token ?? "");
         emit(LoginState.success(data: data));
+        // Navigator.of(
+        //   formKey.currentContext!,
+        // ).pushNamedAndRemoveUntil(Routes.homeScreen, (route) => false);
       },
       failure: (errorHandler) {
         emit(
@@ -44,5 +45,6 @@ class LoginCubit extends Cubit<LoginState> {
 }
 
 Future<void> saveUserToken(String token) async {
-  await SharedPrefHelper.setSecuredString("user_token", token);
+  await SharedPrefHelper.setSecuredString(SharedPrefKeys.userToken, token);
+  DioFactory.setTokenIntoHeaderAfterLogin(token);
 }

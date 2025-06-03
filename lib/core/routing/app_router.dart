@@ -8,9 +8,10 @@ import 'package:advanced_project/features/sign_up.dart/logic/signup_cubit.dart';
 import 'package:advanced_project/features/sign_up.dart/ui/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:advanced_project/features/home/logic/cubit/home_cubit.dart';
 
 class AppRouter {
-  Route generateRoute(RouteSettings settings) {
+  Route? generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case Routes.onBoarding:
         return MaterialPageRoute(builder: (_) => const OnboardingScreen());
@@ -26,7 +27,7 @@ class AppRouter {
         return MaterialPageRoute(
           builder:
               (_) => BlocProvider(
-                create: (context) => getIt<LoginCubit>(),
+                create: (context) => getIt<HomeCubit>()..getSpecializations(),
                 child: const HomeScreen(),
               ),
         );
@@ -39,7 +40,7 @@ class AppRouter {
               ),
         );
       default:
-        return MaterialPageRoute(builder: (_) => const Scaffold());
+        return null;
     }
   }
 }

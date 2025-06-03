@@ -1,4 +1,3 @@
-import 'package:advanced_project/features/sign_up.dart/data/models/signup_responce.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'signup_state.freezed.dart';
